@@ -12,3 +12,6 @@ function mystery(a) {
     else return a[0];
 }
 ```
+
+
+I believe that the mystery array first checks the array length and if it is 1 it just returns the only element. It then makes a "sub array" using slice then it then checks the elements to see which is the biggest it then returns the biggest and keeps running until it returns the biggest value of the array at the end.
